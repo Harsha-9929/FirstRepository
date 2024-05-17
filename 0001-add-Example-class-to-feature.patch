@@ -1,0 +1,26 @@
+From 8e7dd57a500c1ec540460f3f8dac955c2fc3c0db Mon Sep 17 00:00:00 2001
+From: Harsha-9929 <sriharshavardhan9929@gmail.com>
+Date: Fri, 17 May 2024 11:15:28 +0530
+Subject: [PATCH] add Example class to feature
+
+---
+ src/main/java/org/example/Example.java | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 src/main/java/org/example/Example.java
+
+diff --git a/src/main/java/org/example/Example.java b/src/main/java/org/example/Example.java
+new file mode 100644
+index 0000000..b650e0f
+--- /dev/null
++++ b/src/main/java/org/example/Example.java
+@@ -0,0 +1,7 @@
++package org.example;
++
++public class Example {
++    public void printing(){
++        System.out.println("To patch changes of feature to main");
++    }
++}
+-- 
+2.34.1
+
